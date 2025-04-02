@@ -23,8 +23,8 @@ const Patient = sequelize.define('Patient', {
   idNumber: {
     type: DataTypes.STRING,
     allowNull: false,
-    unique: true,
-    comment: 'National ID number'
+    comment: 'National ID number',
+    unique: true
   },
   dateOfBirth: {
     type: DataTypes.DATEONLY,
